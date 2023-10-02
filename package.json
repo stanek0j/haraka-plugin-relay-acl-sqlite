@@ -1,0 +1,43 @@
+{
+  "name": "haraka-plugin-relay-acl-sqlite",
+  "version": "1.0.0",
+  "description": "A SQLite backed plugin for relaying based on ACLs.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "better-sqlite3": "^8.6.0",
+    "haraka-config": "*",
+    "ipaddr.js": "^2.1.0",
+    "yargs": "^13.2.2"
+  },
+  "devDependencies": {
+    "eslint": ">=8",
+    "eslint-plugin-haraka": "*",
+    "haraka-test-fixtures": "*",
+    "mocha": ">=9"
+  },
+  "scripts": {
+    "lint": "npx eslint *.js test",
+    "lintfix": "npx eslint --fix *.js test",
+    "test": "npx mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stanek0j/haraka-plugin-relay-acl-sqlite.git"
+  },
+  "keywords": [
+    "haraka",
+    "plugin",
+    "relay",
+    "acl",
+    "sqlite"
+  ],
+  "author": "Jaromír Staněk <jaromir.stanek@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stanek0j/haraka-plugin-relay-acl-sqlite/issues"
+  },
+  "homepage": "https://github.com/stanek0j/haraka-plugin-relay-acl-sqlite#readme"
+}
